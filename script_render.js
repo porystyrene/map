@@ -4,9 +4,9 @@ function render() {
     const img = new Image();
     img.src = "image.png";
     ctx.drawImage(img,
-        _camx + canvas.width/2,
-        _camy + canvas.height/2,
-        _imageWidth * _camscale,
-        _imageHeight * _camscale
+        _camx + canvas.width/2 - _imageWidth/2 * _camScale,
+        _camy + canvas.height/2 - _imageHeight/2 * _camScale,
+        _imageWidth * _camScale,
+        _imageHeight * _camScale
     );
 }
