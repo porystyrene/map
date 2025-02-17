@@ -5,7 +5,7 @@ Left click to scroll
 <br>
 Z to make point
 <br>
-P to delete point point
+P to delete point
 <br>
 O to edit point
 <br>
