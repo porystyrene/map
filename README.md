@@ -1,2 +1,3 @@
 JUST ADD "image.png" INTO THIS FOLDER
+<br>
 CONFIGURE SETTINGS IN "html.html" DIRECTLY
