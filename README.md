@@ -9,6 +9,10 @@ P to delete point
 <br>
 O to edit point
 <br>
+A to zoom out
+<br>
+S to zoom in
+<br>
 <br>
 JUST ADD "image.png" INTO THIS FOLDER
 <br>
