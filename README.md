@@ -1,8 +1,12 @@
 This is a png viewer ig
 <br>
+<br>
 Left click to scroll
+<br>
 Z to make point
+<br>
 P to delete point point
+<br>
 O to edit point
 <br>
 <br>
