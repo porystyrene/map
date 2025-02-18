@@ -10,6 +10,6 @@ Z to place first point
 X to place second point
 <br>
 <br>
-JUST ADD "image.png" INTO THIS FOLDER
+"image.png" is the map image
 <br>
 CONFIGURE SETTINGS IN "html.html" DIRECTLY
