@@ -1,2 +1,2 @@
 setInterval(run, 10);
-setInterval(resize, 100);
+setInterval(resize, 10);

@@ -3,13 +3,11 @@ This is a png viewer ig
 <br>
 Left click to move
 <br>
-Z to make point
-<br>
-P to delete point
-<br>
-O to edit point
-<br>
 Scroll to zoom
+<br>
+Z to place first point
+<br>
+X to place second point
 <br>
 <br>
 JUST ADD "image.png" INTO THIS FOLDER
