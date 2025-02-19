@@ -1,6 +1,9 @@
 this is a map viewer to measure distance i guess
 <br>
 <br>
+i stole some code from [this guy](https://www.jeffreythompson.org/collision-detection/line-circle.php)
+<br>
+<br>
 Left click to move
 <br>
 Scroll to zoom
