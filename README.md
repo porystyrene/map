@@ -4,18 +4,18 @@ this is a map viewer to measure distance i guess
 i stole some code from [this guy](https://www.jeffreythompson.org/collision-detection/line-circle.php)
 <br>
 <br>
-Left click to move
+left click to move
 <br>
-Scroll to zoom
+scroll to zoom
 <br>
-Z to place points
+z to place points
 <br>
-P to delete nearest line segment
+p to delete nearest line segment
 <br>
 <br>
 "image.png" is the map image
 <br>
-CONFIGURE SETTINGS IN "index.html" DIRECTLY
+configure settings in "script_initalize.js"
 <br>
 <br>
 unfinished:
