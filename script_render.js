@@ -5,17 +5,18 @@ function render() {
     ctx.font = "30px sans-serif";
     ctx.strokeStyle = 'black';
     ctx.fillStyle = 'white';
-    let img = new Image();
 
+    let img2 = new Image();
     //render map
-    img.src = "image.png";
-    ctx.drawImage(img,
+    img2.src = "image.png";
+    ctx.drawImage(img2,
         _camx + canvas.width/2 - _imageWidth/2 * _camScale,
         _camy + canvas.height/2 - _imageHeight/2 * _camScale,
         _imageWidth * _camScale,
         _imageHeight * _camScale
     );
 
+    let img = new Image();
     //render points
     img.src = "point.png";
     for (let i = 0; i < _listX.length; i++) {
