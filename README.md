@@ -23,3 +23,5 @@ unfinished:
 make nearest line segment get highlighted
 <br>
 add degrees conversion
+<br>
+update conversion if needed
