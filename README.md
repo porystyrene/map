@@ -15,7 +15,7 @@ P to delete nearest line segment
 <br>
 "image.png" is the map image
 <br>
-CONFIGURE SETTINGS IN "html.html" DIRECTLY
+CONFIGURE SETTINGS IN "index.html" DIRECTLY
 <br>
 <br>
 unfinished:
