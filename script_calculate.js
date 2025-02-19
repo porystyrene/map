@@ -107,7 +107,9 @@ function calculate() {
                 biggest = [i, final];
             }
         }
-        _listX.splice(biggest[0], 2);
-        _listY.splice(biggest[0], 2);
+        if (biggest.length > 0) {
+            _listX.splice(biggest[0], 2);
+            _listY.splice(biggest[0], 2);
+        }
     }
 }
