@@ -1,4 +1,4 @@
-This is a png viewer ig
+this is a map viewer to measure distance i guess
 <br>
 <br>
 Left click to move
