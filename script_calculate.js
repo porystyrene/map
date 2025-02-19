@@ -33,6 +33,8 @@ document.addEventListener('keyup', function(event) {
         _zPressed = 0;
     }
 });
+
+/*
 document.addEventListener('keydown', function(event) {
     if (event.key == "x") {
         _xPressed = 1;
@@ -43,17 +45,13 @@ document.addEventListener('keyup', function(event) {
         _xPressed = 0;
     }
 });
+*/
 
 function calculate() {
     const canvas = document.getElementById("_canvas");
     if (_zPressed == 1) {
-        _firstX = (_lastX-canvas.width/2) / _camScale - _camx / _camScale;
-        _firstY = (_lastY-canvas.height/2) / _camScale - _camy / _camScale;
+        _listX.push((_lastX-canvas.width/2) / _camScale - _camx / _camScale);
+        _listY.push((_lastY-canvas.height/2) / _camScale - _camy / _camScale);
         _zPressed = 2;
-    }
-    if (_xPressed == 1) {
-        _secondX = (_lastX-canvas.width/2) / _camScale - _camx / _camScale;
-        _secondY = (_lastY-canvas.height/2) / _camScale - _camy / _camScale;
-        _xPressed = 2;
     }
 }
