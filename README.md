@@ -5,9 +5,7 @@ Left click to move
 <br>
 Scroll to zoom
 <br>
-Z to place first point
-<br>
-X to place second point
+Z to place points
 <br>
 <br>
 "image.png" is the map image
