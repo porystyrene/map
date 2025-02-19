@@ -18,3 +18,5 @@ CONFIGURE SETTINGS IN "html.html" DIRECTLY
 unfinished:
 <br>
 make nearest line segment get highlighted
+<br>
+add degrees conversion
