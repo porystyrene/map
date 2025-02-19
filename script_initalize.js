@@ -11,6 +11,6 @@ var _mouseDown = false;
 var _lastX = 0;
 var _lastY = 0;
 var _zPressed = 0;
-var _xPressed = 0;
+var _pPressed = 0;
 var _listX = [];
 var _listY = [];
