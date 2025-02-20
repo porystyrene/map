@@ -33,7 +33,6 @@ document.addEventListener('keyup', function(event) {
         _zPressed = 0;
     }
 });
-
 document.addEventListener('keydown', function(event) {
     if (event.key == "p") {
         _pPressed = 1;
@@ -44,6 +43,16 @@ document.addEventListener('keyup', function(event) {
         _pPressed = 0;
     }
 });
+document.addEventListener('keydown', function(event) {
+    if (event.key == "o") {
+        _oPressed = true;
+    }
+});
+document.addEventListener('keyup', function(event) {
+    if (event.key == "o") {
+        _oPressed = false;
+    }
+});
 
 function calculate() {
     const canvas = document.getElementById("_canvas");
@@ -52,6 +61,8 @@ function calculate() {
         _listY.push((_lastY-canvas.height/2) / _camScale - _camy / _camScale);
         _zPressed = 2;
     }
+    let mouseX = (_lastX - canvas.width/2) / _camScale - _camx / _camScale;
+    let mouseY = (_lastY - canvas.height/2) / _camScale - _camy / _camScale;
     if (_pPressed == 1) {
         _pPressed = 2;
         //delete nearest line
@@ -62,8 +73,6 @@ function calculate() {
             if (_listX.length < i+2) {
                 break;
             }
-            let mouseX = (_lastX - canvas.width/2) / _camScale - _camx / _camScale;
-            let mouseY = (_lastY - canvas.height/2) / _camScale - _camy / _camScale;
             let dist = Math.sqrt((_listX[i]-_listX[i+1])**2 + (_listY[i]-_listY[i+1])**2);
             let dot =
             (
@@ -111,5 +120,20 @@ function calculate() {
             _listX.splice(biggest[0], 2);
             _listY.splice(biggest[0], 2);
         }
+    }
+    if (_oPressed && _listX.length > 0) {
+        let winner = [];
+        for (let i = 0; i < _listX.length; i++) {
+            let dist = Math.sqrt((_listX[i]-mouseX)**2 + (_listY[i]-mouseY)**2);
+            if (winner.length == 0) {
+                winner = [0, dist];
+                continue;
+            }
+            if (dist < winner[1]) {
+                winner = [i, dist];
+            }
+        }
+        _listX[winner[0]] = mouseX;
+        _listY[winner[0]] = mouseY;
     }
 }
