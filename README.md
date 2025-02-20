@@ -27,5 +27,3 @@ make nearest line segment and nearest point get highlighted
 add degrees conversion
 <br>
 update conversion if needed
-<br>
-add individual point editing
