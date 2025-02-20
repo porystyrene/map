@@ -20,8 +20,10 @@ configure settings in "script_initalize.js"
 <br>
 unfinished:
 <br>
-make nearest line segment get highlighted
+make nearest line segment and nearest point get highlighted
 <br>
 add degrees conversion
 <br>
 update conversion if needed
+<br>
+add individual point editing
