@@ -12,6 +12,8 @@ z to place points
 <br>
 p to delete nearest line segment
 <br>
+O to reposition nearest point to mouse
+<br>
 <br>
 "image.png" is the map image
 <br>
