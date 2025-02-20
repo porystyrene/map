@@ -1,8 +1,8 @@
-//1135px = 25cm
-//1px = 25cm / 1135
-const _imagePixelToCentimeter = 25 / 1135;
-const _imageWidth = 10714;
-const _imageHeight = 5185;
+//263px = 25cm
+//1px = 25cm / 263
+const _imagePixelToCentimeter = 25 / 263;
+const _imageWidth = 2500;
+const _imageHeight = 1210;
 
 var _camx = 0;
 var _camy = 0;
